@@ -1,0 +1,5 @@
+{
+  "max_fare_increase_percent": 15,
+  "preferred_airlines": ["AirIndia", "IndiGo"],
+  "allowed_cabin": "Economy"
+}
