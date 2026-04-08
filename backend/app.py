@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .schemas import RebookRequest
-from .services import TripGuardOrchestrator, get_all_employees
+from schemas import RebookRequest
+from services import TripGuardOrchestrator, get_all_employees
 
 app = FastAPI(title="TripGuard Enterprise API")
 
