@@ -2,7 +2,7 @@ import os
 import random
 from supabase import create_client
 
-from .schemas import RebookResponse, AlternativeFlight
+from schemas import RebookResponse, AlternativeFlight
 from tools import (
     detect_disruption_tool,
     search_real_flights,
